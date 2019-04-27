@@ -81,7 +81,7 @@
     "@angular-devkit/core" "7.3.8"
     rxjs "6.3.3"
 
-"@angular-devkit/core@7.3.8", "@angular-devkit/core@^7.1.4":
+"@angular-devkit/core@7.3.8":
   version "7.3.8"
   resolved "https://registry.yarnpkg.com/@angular-devkit/core/-/core-7.3.8.tgz#702b0944a69c71cce3a1492e0d62de18df22a993"
   integrity sha512-3X9uzaZXFpm5o2TSzhD6wEOtVU32CgeytKjD1Scxj+uMMVo48SWLlKiFh312T+smI9ko7tOT8VqxglwYkWosgg==
@@ -92,7 +92,7 @@
     rxjs "6.3.3"
     source-map "0.7.3"
 
-"@angular-devkit/schematics@7.3.8", "@angular-devkit/schematics@^7.1.4", "@angular-devkit/schematics@^7.2.2":
+"@angular-devkit/schematics@7.3.8":
   version "7.3.8"
   resolved "https://registry.yarnpkg.com/@angular-devkit/schematics/-/schematics-7.3.8.tgz#70bfc7876f7924ff53ab9310a00b62f20acf2f5c"
   integrity sha512-mvaKoORZIaW/h0VNZ3IQWP0qThRCZRX6869FNlzV0jlW0mhn07XbiIGHCGGSCDRxS7qJ0VbuIVnKXntF+iDeWw==
@@ -307,7 +307,7 @@
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
 
-"@schematics/angular@7.3.8", "@schematics/angular@^7.1.4":
+"@schematics/angular@7.3.8":
   version "7.3.8"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-7.3.8.tgz#9cded496b79830164acbc2fc382b66e5b5f7cf02"
   integrity sha512-7o90bnIxXNpJhWPDY/zCedcG6KMIihz7a4UQe6UdlhEX21MNZLYFiDiR5Vmsx39wjm2EfPh3JTuBIHGmMCXkQQ==
@@ -2103,7 +2103,7 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==
 
-devexpress-reporting-angular@^18.2.7:
+devexpress-reporting-angular@^18.2.8:
   version "18.2.8"
   resolved "https://registry.yarnpkg.com/devexpress-reporting-angular/-/devexpress-reporting-angular-18.2.8.tgz#68fe9c0ef001aa8423471b785d303a7a77c4751f"
   integrity sha512-VdgzWNLFyqZT1lyrdrmcxxMUgJaOeP6gAO2ILNDePDiau7ckcpNAuevElSnDExQq9FsnvD5mgr+ICOa3osovmg==
@@ -2122,24 +2122,6 @@ devexpress-reporting@18.2.8:
     jquery "^3.1.1"
     jquery-ui "^1.12.1"
     knockout "~3.4.0"
-
-devextreme-angular@^18.2.8:
-  version "18.2.8"
-  resolved "https://registry.yarnpkg.com/devextreme-angular/-/devextreme-angular-18.2.8.tgz#57801102d31f338865e9b51a51d3cdebdf56e11b"
-  integrity sha512-793pPNDun7cQqRNsLUcKxUdw4poD6JvqGVjvAKgj9WbTGaIdPe87yH6F41YfnG7jjehMWJjHmMeFWJXTYyKVXg==
-  dependencies:
-    "@angular-devkit/schematics" "^7.2.2"
-    devextreme-schematics latest
-
-devextreme-schematics@latest:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/devextreme-schematics/-/devextreme-schematics-1.0.5.tgz#346962b158b95e2c5f017c1c1dc9377ac37feef6"
-  integrity sha512-6y1Hm2OxRuizZKygoWylvn5tp23MHOgiyvJWCOVsz8oDvQNz5HOwoc7Ogic5TFBx87u6KpV1tbVapP5RMbupfA==
-  dependencies:
-    "@angular-devkit/core" "^7.1.4"
-    "@angular-devkit/schematics" "^7.1.4"
-    "@schematics/angular" "^7.1.4"
-    rxjs "^6.3.3"
 
 devextreme@18.2.8:
   version "18.2.8"
@@ -5926,7 +5908,7 @@ rxjs@6.3.3:
   dependencies:
     tslib "^1.9.0"
 
-rxjs@^6.1.0, rxjs@^6.3.3, rxjs@~6.5.1:
+rxjs@^6.1.0, rxjs@~6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.5.1.tgz#f7a005a9386361921b8524f38f54cbf80e5d08f4"
   integrity sha512-y0j31WJc83wPu31vS1VlAFW5JGrnGC+j+TtGAa1fRQphy48+fDYiDmX8tjGloToEsMkxnouOg/1IzXGKkJnZMg==
